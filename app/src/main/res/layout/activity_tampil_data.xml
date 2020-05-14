@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".TampilData">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:text="Info Pendaftar"
+        android:fontFamily="@font/quinfobold"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:layout_marginBottom="70dp"
+        android:layout_marginTop="17dp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/editTextNIM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="NIM"
+        android:paddingLeft="9dp"
+        android:textSize="17sp"/>
+
+    <EditText
+        android:id="@+id/editTextNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"
+        android:inputType="textCapWords"
+        android:paddingLeft="9dp"
+        android:layout_marginTop="4dp"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/editTextJurusan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jurusan"
+        android:inputType="textCapWords"
+        android:paddingLeft="9dp"
+        android:layout_marginTop="4dp"
+        android:textSize="17sp"/>
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/btn_rounded"
+        android:text="UPDATE"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_rounded"
+        android:text="HAPUS"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
